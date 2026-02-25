@@ -10,9 +10,9 @@ public class MaximumSubArray {
 
         for (int i = 1; i < arr.length; i++) {
 
-            currentSum = Math.max(arr[i], currentSum + arr[i]);
+            currentSum = Math.max(arr[i], currentSum + arr[i]);// 5
 
-            maxSoFar = Math.max(maxSoFar, currentSum);
+            maxSoFar = Math.max(maxSoFar, currentSum);// 5
         }
 
         return maxSoFar;
